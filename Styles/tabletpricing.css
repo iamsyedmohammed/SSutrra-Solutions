@@ -1,0 +1,42 @@
+
+
+.tablet-price-section {
+  display: flex;
+  align-items: center;
+  padding: 60px 40px;
+  background: linear-gradient(to right, #00B1F9, #154C94);
+  color: #fff;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.tablet-image {
+  max-width: 400px;
+  border-radius: 50px;
+  height: auto;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.tablet-price-container {
+  flex: 1;
+  text-align: right;
+}
+
+.tablet-price-content h2 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.tablet-price-content .brand-name {
+  color: #ffeb3b;
+  font-weight: 800;
+}
+
+.tablet-price-content .main-heading {
+  color: #ffffff;
+  font-weight: 800;
+}

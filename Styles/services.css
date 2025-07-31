@@ -1,0 +1,74 @@
+
+
+.services-section {
+  background: linear-gradient(120deg, #d1e8f5, #007fdc);
+  text-align: center;
+  padding: 20px 20px;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  position: relative;
+}
+
+.services-heading {
+  font-size: 60px;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.services-heading .highlight {
+  color: #ffeb3b;
+}
+
+.service-card {
+  display: inline-block;
+  background-color: #1b3050;
+  border-radius: 16px;
+  padding: 30px 20px;
+  color: white;
+  max-width: 300px;
+  border: 2px solid white;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.service-icon {
+  width: 100%;
+  max-width: 120px;
+  margin: 0 auto;
+}
+
+.service-title {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.learn-more {
+  color: #ffeb3b;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.buy-button {
+  display: inline-block;
+  background-color: white;
+  color: #000;
+  font-weight: 800;
+  padding: 12px 28px;
+  border-radius: 40px;
+  font-size: 18px;
+  margin-top: 30px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.buy-button:hover {
+  background-color: #ffeb3b;
+}
+
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get In Touch</title>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+    .bg-text {
+      position: absolute;
+      font-size: 9rem;
+      color: rgba(255,255,255,0.05);
+      font-weight: bold;
+      z-index: 0;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      white-space: nowrap;
+    }
+    .contact-box {
+      font-family: 'Roboto', sans-serif;
+    }
+    .title-highlight {
+      font-family: 'Anton', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-[#0073a8] text-white relative">
+  <!-- <div class="bg-text select-none">GET IN TOUCH</div> -->
+
+  <section class="flex flex-col md:flex-row min-h-screen items-center justify-center px-6 py-10">
+    <!-- Left: Contact Info -->
+    <div class="bg-[#ffeb00] text-black rounded-tl-[50px] rounded-bl-[50px] w-full md:w-1/2 p-10 contact-box relative z-10">
+      <!-- <h1 class="text-5xl font-bold mb-10 title-highlight"><span class="text-[#0073a8]">GET</span> IN TOUCH</h1> -->
+      <div class="space-y-6 text-base font-medium">
+        <div>
+          <p class="uppercase font-bold">Registered Office</p>
+          <p class="text-[#003399] font-semibold">Plot No. 6, Phase V, J.I.P, Doolapally Road,<br> Jeedimetla, Hyderabad - 500100</p>
+        </div>
+        <div>
+          <p class="uppercase font-bold">Corporate Office</p>
+          <p class="text-[#003399] font-semibold">Plot No. 23, Ravi Co-Operative Housing Society, Trimulghvrry, Secunderabad - 500015</p>
+        </div>
+        <div>
+          <p class="uppercase font-bold">Call for Help</p>
+          <p class="text-[#003399] font-semibold">70758 51075, 9848447143, 9866133020</p>
+        </div>
+        <div>
+          <p class="uppercase font-bold">Mail us for Information</p>
+          <p class="text-[#003399] font-semibold">info@ssutrrasolutions.com<br> satish@ssutrrasolutions.com</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right: Form -->
+    <div class="bg-white text-black rounded-tr-[50px] rounded-br-[50px] w-full md:w-1/2 p-10 contact-box relative z-10">
+      <form class="grid grid-cols-1 gap-4 text-sm md:grid-cols-2">
+        <input class="bg-[#e4e4e4] p-3 rounded-md w-full" placeholder="Name*" required />
+        <input class="bg-[#e4e4e4] p-3 rounded-md w-full" placeholder="Last Name*" required />
+        <input class="bg-[#e4e4e4] p-3 rounded-md w-full" placeholder="Email ID*" type="email" required />
+        <input class="bg-[#e4e4e4] p-3 rounded-md w-full" placeholder="Phone Number*" type="tel" required />
+        <input class="bg-[#e4e4e4] p-3 rounded-md w-full" placeholder="Web Address*" type="url" required />
+        <input class="bg-[#e4e4e4] p-3 rounded-md w-full" placeholder="Services" />
+        <textarea class="bg-[#e4e4e4] p-3 rounded-md w-full col-span-2" rows="4" placeholder="Messages..."></textarea>
+        <div class="col-span-2 text-right">
+          <button class="bg-[#0073a8] hover:bg-[#005f86] text-yellow-300 font-bold py-2 px-6 rounded-full shadow-md transition-all duration-300">SEND NOW</button>
+        </div>
+      </form>
+    </div>
+  </section>
+</body>
+</html>

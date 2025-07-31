@@ -1,0 +1,43 @@
+.mission-section {
+  background: url('/images/close-up-dart-bull-s-eye.jpg') no-repeat center center/cover;
+  padding: 80px 40px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  min-height: 150px;
+  position: relative;
+  z-index: 0;
+}
+
+.mission-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* You can adjust the darkness here */
+  z-index: 1;
+}
+
+.mission-content {
+  max-width: 600px;
+  text-align: left;
+  padding: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.mission-content h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #ffeb3b;
+  margin-bottom: 20px;
+}
+
+.mission-content p {
+  font-size: 20px;
+  line-height: 1.6;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}

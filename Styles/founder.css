@@ -1,0 +1,94 @@
+
+.founder-section-bg {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background: url('/images/Founder\ new\ image.jpg') no-repeat left center;
+  background-size: cover;
+  background-color: #1266cf;
+  padding: 50px 60px;
+  min-height: 400px;
+  color: white;
+  position: relative;
+}
+
+.founder-text {
+  max-width: 50%;
+  padding-left: 40px;
+  background-color: #1266cf;
+}
+
+.founder-text h2 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.founder-text .line1,
+.founder-text .line2 {
+  display: block;
+  color: #ffeb3b;
+}
+
+@media (max-width: 768px) {
+  .founder-section-bg {
+    flex-direction: column;
+    background-position: top center;
+    justify-content: center;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .founder-text {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .founder-text h2 {
+    font-size: 36px;
+  }
+}
+
+
+
+.founder-about-section {
+  background-color: #f7f9fc;
+  padding: 80px 40px;
+  color: #111;
+}
+
+.founder-about-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.founder-about-container h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #1e3a8a;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.founder-about-container p {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.founder-about-container strong {
+  color: #1e3a8a;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .founder-about-container h2 {
+    font-size: 32px;
+  }
+
+  .founder-about-container p {
+    font-size: 16px;
+  }
+}

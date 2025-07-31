@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Get In Touch</title>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .bg-text {
+      position: absolute;
+      font-size: 9rem;
+      color: rgba(255, 255, 255, 0.05);
+      font-weight: bold;
+      z-index: 0;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      white-space: nowrap;
+      pointer-events: none;
+    }
+
+    .contact-box {
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .title-highlight {
+      font-family: 'Anton', sans-serif;
+      letter-spacing: 2px;
+    }
+
+    input, textarea {
+      transition: all 0.3s ease;
+    }
+
+    input:focus, textarea:focus {
+      outline: none;
+      box-shadow: 0 0 0 3px #0073a844;
+      border: 1px solid #0073a8;
+      background-color: #ffffff;
+    }
+
+    ::placeholder {
+      color: #555;
+      opacity: 0.8;
+    }
+
+    .contact-box h1 {
+      font-size: 3rem;
+      line-height: 1.2;
+    }
+
+    @media screen and (max-width: 768px) {
+      .contact-box h1 {
+        font-size: 2.2rem;
+      }
+    }
+
+    button:hover {
+      transform: scale(1.05);
+    }
+
+    form input, form textarea {
+      border: 1px solid transparent;
+    }
+
+    .contact-box div {
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .contact-box div:hover {
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body class="bg-[#0073a8] text-white relative">
+
+  <!-- <div class="bg-text select-none">GET IN TOUCH</div> -->
+
+  <section class="flex flex-col md:flex-row min-h-screen items-center justify-center px-6 py-10">
+    <!-- Left: Contact Info -->
+    <div class="bg-[#ffeb00] text-black rounded-tl-[50px] rounded-bl-[50px] w-full md:w-1/2 p-10 contact-box shadow-xl relative z-10">
+      <!-- <h1 class="text-5xl font-bold mb-10 title-highlight"><span class="text-[#0073a8]">GET</span> IN TOUCH</h1> -->
+      <div class="space-y-6 text-base font-medium">
+        <div>
+          <p class="uppercase font-bold">Registered Office</p>
+          <p class="text-[#003399] font-semibold">Plot No. 6, Phase V, J.I.P, Doolapally Road,<br> Jeedimetla, Hyderabad - 500100</p>
+        </div>
+        <div>
+          <p class="uppercase font-bold">Corporate Office</p>
+          <p class="text-[#003399] font-semibold">Plot No. 23, Ravi Co-Operative Housing Society, Trimulghvrry, Secunderabad - 500015</p>
+        </div>
+        <div>
+          <p class="uppercase font-bold">Call for Help</p>
+          <p class="text-[#003399] font-semibold">70758 51075, 9848447143, 9866133020</p>
+        </div>
+        <div>
+          <p class="uppercase font-bold">Mail us for Information</p>
+          <p class="text-[#003399] font-semibold">info@ssutrrasolutions.com<br> satish@ssutrrasolutions.com</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right: Form -->
+    <div class="bg-white text-black rounded-tr-[50px] rounded-br-[50px] w-full md:w-1/2 p-10 contact-box shadow-xl relative z-10">
+      <form class="grid grid-cols-1 gap-4 text-sm md:grid-cols-2">
+        <input class="bg-[#e4e4e4] p-3 rounded-md w-full" placeholder="Name*" required />
+        <input class="bg-[#e4e4e4] p-3 rounded-md w-full" placeholder="Last Name*" required />
+        <input class="bg-[#e4e4e4] p-3 rounded-md w-full" placeholder="Email ID*" type="email" required />
+        <input class="bg-[#e4e4e4] p-3 rounded-md w-full" placeholder="Phone Number*" type="tel" required />
+        <input class="bg-[#e4e4e4] p-3 rounded-md w-full" placeholder="Web Address*" type="url" required />
+        <input class="bg-[#e4e4e4] p-3 rounded-md w-full" placeholder="Services" />
+        <textarea class="bg-[#e4e4e4] p-3 rounded-md w-full col-span-2" rows="4" placeholder="Messages..."></textarea>
+        <div class="col-span-2 text-right">
+          <button type="submit" class="bg-[#0073a8] hover:bg-[#005f86] text-yellow-300 font-bold py-2 px-6 rounded-full shadow-lg transition-all duration-300">SEND NOW</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>

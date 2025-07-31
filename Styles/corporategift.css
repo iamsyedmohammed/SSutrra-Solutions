@@ -1,0 +1,79 @@
+.corporate-gift-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #0388c2;
+  color: #fff;
+  padding: 60px 40px;
+  position: relative;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.gift-left {
+  flex: 1;
+  min-width: 200px;
+  max-width: 60%;
+}
+
+.gift-title {
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.highlight-yellow {
+  color: #ffe600;
+}
+
+.highlight-white {
+  color: #ffffff;
+}
+
+.gift-description {
+    
+  font-size: 18px;
+  line-height: 1.6;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  margin-bottom: 30px;
+}
+
+.gift-button {
+  background-color: #ffe600;
+  color: #000;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 14px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.gift-button:hover {
+  background-color: #ffcc00;
+}
+
+.gift-right {
+  flex: 1;
+  min-width: 250px;
+  text-align: right;
+  position: relative;
+}
+
+.right-heading {
+  font-size: 50px;
+  font-weight: 800;
+  text-align: right;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.gift-image {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+}

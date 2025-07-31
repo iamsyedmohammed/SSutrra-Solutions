@@ -1,0 +1,57 @@
+
+
+.tablet-offer-section {
+  background: url('/images/s-l400-removebg-preview.png') no-repeat ;
+  min-height: 200px;
+  padding: 60px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.tablet-offer-container {
+  max-width: 600px;
+  color: #000;
+  text-align: right;
+}
+
+.tablet-offer-content h2 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.tablet-offer-content .brand-name {
+  color: #17479e;
+  font-weight: 800;
+}
+
+.tablet-offer-content .main-heading {
+  color: #111;
+  font-weight: 800;
+}
+
+.sub-text {
+  font-size: 18px;
+  color: #00a2ff;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #ffeb3b;
+  color: #000;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 12px 24px;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #ffd600;
+}
