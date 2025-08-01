@@ -21,8 +21,12 @@
   <link rel="stylesheet" href="Styles/services.css">
   <link rel="stylesheet" href="Styles/ourpartner.css">
   <link rel="stylesheet" href="Styles/corporategift.css">
+  <link rel="stylesheet" href="Styles/scrolltotop.css">
 
   <!-- Favicon -->
+
+  <link rel="icon" href="https://ssutrrasolutions.in/wp-content/uploads/2025/04/Logo-e1745892292386.jpg" type="image/jpeg">
+
   <link rel="icon" type="image/png" href="/SSutra/favicon.png"> <!-- Replace with your actual favicon path -->
 </head>
 <body>
@@ -150,6 +154,11 @@ a wide range of enterprise level solutions.
 
   </div>
 </section>
+
+<!-- Scroll to Top Button -->
+<button id="scrollToTopBtn" title="Go to top">
+  <i class="fas fa-arrow-up"></i>
+</button>
 
 
 
@@ -412,6 +421,26 @@ a wide range of enterprise level solutions.
 
 
 
+<script>
+  const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+  // Show button when user scrolls down 300px
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+      scrollToTopBtn.style.display = "block";
+    } else {
+      scrollToTopBtn.style.display = "none";
+    }
+  });
+
+  // Scroll to top smoothly
+  scrollToTopBtn.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+</script>
 
 
   
