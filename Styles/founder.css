@@ -18,8 +18,8 @@
 }
 
 .founder-photo {
-  width: 180px;
-  height: 180px;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
   border-radius: 50%;
   border: 5px solid #fff;
@@ -34,7 +34,7 @@
 .founder-info h2 {
   font-size: 44px;
   font-weight: 800;
-  line-height: 1.2;
+  line-height: 0.8;
   color: #ffeb3b;
   margin: 0;
 }
