@@ -33,7 +33,6 @@
 }
 
 .gift-description {
-    
   font-size: 18px;
   line-height: 1.6;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
@@ -76,4 +75,60 @@
   width: 100%;
   max-width: 400px;
   margin-top: 20px;
+}
+
+/* ====================
+   Mobile Responsive
+   ==================== */
+@media (max-width: 768px) {
+  .corporate-gift-section {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .gift-left, .gift-right {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .gift-title {
+    font-size: 40px;
+  }
+
+  .right-heading {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .gift-button {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+
+  .gift-image {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .gift-title {
+    font-size: 32px;
+  }
+
+  .right-heading {
+    font-size: 28px;
+  }
+
+  .gift-description {
+    font-size: 16px;
+  }
+
+  .gift-button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
 }

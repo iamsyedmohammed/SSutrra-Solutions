@@ -1,9 +1,8 @@
-
 .founder-section-bg {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  background: url('/images/Founder\ new\ image.jpg') no-repeat left center;
+  background: url('/images/Founder new image.jpg') no-repeat left center;
   background-size: cover;
   background-color: #1266cf;
   padding: 50px 60px;
@@ -15,7 +14,7 @@
 .founder-text {
   max-width: 50%;
   padding-left: 40px;
-  background-color: #1266cf;
+  background-color: rgba(18, 102, 207, 0.9); /* Semi-transparent for contrast */
 }
 
 .founder-text h2 {
@@ -34,15 +33,19 @@
 @media (max-width: 768px) {
   .founder-section-bg {
     flex-direction: column;
-    background-position: top center;
     justify-content: center;
     padding: 60px 20px;
     text-align: center;
+
+    /* ✅ Hides background image */
+    background-image: none;
+    background-color: #1266cf; /* Keep background solid blue */
   }
 
   .founder-text {
     max-width: 100%;
     padding: 0;
+    background-color: rgba(18, 102, 207, 0.95);
   }
 
   .founder-text h2 {
